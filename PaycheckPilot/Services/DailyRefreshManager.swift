@@ -1,5 +1,6 @@
 import Foundation
 import BackgroundTasks
+import SwiftData
 
 /// Schedules an early-morning background refresh so the allocation plan and
 /// daily tip are already updated when the app is opened. iOS decides the
