@@ -1,0 +1,193 @@
+﻿ProjectID,Workstream,SortOrder,Label,MilestoneName,TimelinePos,RowY,Status
+P00,Commercial Analytics,1,C1,Int. Basis / Curt,5,5,Not Started
+P00,Commercial Analytics,2,C2,Ext. Basis / Curt,16,5,Not Started
+P00,Commercial Analytics,3,C3,Study Refresh,30,5,Not Started
+P00,Commercial Analytics,4,C4,3rd Party Study,38,5,Not Started
+P00,Commercial Analytics,5,C5,Ext. Re-finance,58,5,Not Started
+P00,Commercial Analytics,6,C6,Outage Monitoring (Basis/Curt.),74,5,Not Started
+P00,Interconnection,7,I1,IX App / POI,5,4,Not Started
+P00,Interconnection,8,I2,IX Studies,16,4,Not Started
+P00,Interconnection,9,I3,GIA Execution,30,4,Not Started
+P00,Interconnection,10,I4,Dyn Settings (Analysis),38,4,Not Started
+P00,Interconnection,11,I5,Dyn Settings (Testing),58,4,Not Started
+P00,Interconnection,12,I6,As-Built Mods & LC Release,74,4,Not Started
+P00,HV Engineering,13,7,MPT / HV Eqp Long-Lead,2,3,Not Started
+P00,HV Engineering,14,8,E&P / OTB,9,3,Not Started
+P00,HV Engineering,15,9,FacStudy / POI-HV Review,28,3,Not Started
+P00,HV Engineering,16,10,Reactive & PQ (Studies),38,3,Not Started
+P00,HV Engineering,17,11,PEC,50,3,Not Started
+P00,HV Engineering,18,12,V & Q Setting (Testing),58,3,Not Started
+P00,HV Engineering,19,13,As-Built SLD,72,3,Not Started
+P00,SCADA / Telecom,20,14,GIA Req. Rev,30,2,Not Started
+P00,SCADA / Telecom,21,15,PPA Req. Rev,34,2,Not Started
+P00,SCADA / Telecom,22,16,Vendor Sel / Long-Lead Eqp,38,2,Not Started
+P00,SCADA / Telecom,23,17,Points List Rev,44,2,Not Started
+P00,SCADA / Telecom,24,18,TELCOM / Wless (Order/Install),48,2,Not Started
+P00,SCADA / Telecom,25,19,SCADA FAT,54,2,Not Started
+P00,SCADA / Telecom,26,20,Primary Telco,60,2,Not Started
+P00,HV O&M,27,21,Initial Design Rev. (ongoing),36,1,Not Started
+P00,HV O&M,28,22,HV Quality Rev. (ongoing),42,1,Not Started
+P00,HV O&M,29,23,MPT Del. / Inst.,48,1,Not Started
+P00,HV O&M,30,24,Commissioning (CMX) Testing,54,1,Not Started
+P00,HV O&M,31,25,Punch List Items,58,1,Not Started
+P00,HV O&M,32,26,CC&C,62,1,Not Started
+P01,Commercial Analytics,1,C1,Int. Basis / Curt,5,5,On Track
+P01,Commercial Analytics,2,C2,Ext. Basis / Curt,16,5,On Track
+P01,Commercial Analytics,3,C3,Study Refresh,30,5,On Track
+P01,Commercial Analytics,4,C4,3rd Party Study,38,5,On Track
+P01,Commercial Analytics,5,C5,Ext. Re-finance,58,5,Not Started
+P01,Commercial Analytics,6,C6,Outage Monitoring (Basis/Curt.),74,5,Not Started
+P01,Interconnection,7,I1,IX App / POI,5,4,On Track
+P01,Interconnection,8,I2,IX Studies,16,4,On Track
+P01,Interconnection,9,I3,GIA Execution,30,4,On Track
+P01,Interconnection,10,I4,Dyn Settings (Analysis),38,4,On Track
+P01,Interconnection,11,I5,Dyn Settings (Testing),58,4,Not Started
+P01,Interconnection,12,I6,As-Built Mods & LC Release,74,4,Not Started
+P01,HV Engineering,13,7,MPT / HV Eqp Long-Lead,2,3,On Track
+P01,HV Engineering,14,8,E&P / OTB,9,3,On Track
+P01,HV Engineering,15,9,FacStudy / POI-HV Review,28,3,On Track
+P01,HV Engineering,16,10,Reactive & PQ (Studies),38,3,On Track
+P01,HV Engineering,17,11,PEC,50,3,At Risk
+P01,HV Engineering,18,12,V & Q Setting (Testing),58,3,Not Started
+P01,HV Engineering,19,13,As-Built SLD,72,3,Not Started
+P01,SCADA / Telecom,20,14,GIA Req. Rev,30,2,On Track
+P01,SCADA / Telecom,21,15,PPA Req. Rev,34,2,On Track
+P01,SCADA / Telecom,22,16,Vendor Sel / Long-Lead Eqp,38,2,At Risk
+P01,SCADA / Telecom,23,17,Points List Rev,44,2,On Track
+P01,SCADA / Telecom,24,18,TELCOM / Wless (Order/Install),48,2,Not Started
+P01,SCADA / Telecom,25,19,SCADA FAT,54,2,Not Started
+P01,SCADA / Telecom,26,20,Primary Telco,60,2,Not Started
+P01,HV O&M,27,21,Initial Design Rev. (ongoing),36,1,On Track
+P01,HV O&M,28,22,HV Quality Rev. (ongoing),42,1,On Track
+P01,HV O&M,29,23,MPT Del. / Inst.,48,1,Not Started
+P01,HV O&M,30,24,Commissioning (CMX) Testing,54,1,Not Started
+P01,HV O&M,31,25,Punch List Items,58,1,Not Started
+P01,HV O&M,32,26,CC&C,62,1,Not Started
+P02,Commercial Analytics,1,C1,Int. Basis / Curt,5,5,On Track
+P02,Commercial Analytics,2,C2,Ext. Basis / Curt,16,5,On Track
+P02,Commercial Analytics,3,C3,Study Refresh,30,5,At Risk
+P02,Commercial Analytics,4,C4,3rd Party Study,38,5,Not Started
+P02,Commercial Analytics,5,C5,Ext. Re-finance,58,5,Not Started
+P02,Commercial Analytics,6,C6,Outage Monitoring (Basis/Curt.),74,5,Not Started
+P02,Interconnection,7,I1,IX App / POI,5,4,On Track
+P02,Interconnection,8,I2,IX Studies,16,4,On Track
+P02,Interconnection,9,I3,GIA Execution,34,4,At Risk
+P02,Interconnection,10,I4,Dyn Settings (Analysis),38,4,Not Started
+P02,Interconnection,11,I5,Dyn Settings (Testing),58,4,Not Started
+P02,Interconnection,12,I6,As-Built Mods & LC Release,74,4,Not Started
+P02,HV Engineering,13,7,MPT / HV Eqp Long-Lead,2,3,On Track
+P02,HV Engineering,14,8,E&P / OTB,9,3,On Track
+P02,HV Engineering,15,9,FacStudy / POI-HV Review,28,3,On Track
+P02,HV Engineering,16,10,Reactive & PQ (Studies),38,3,Not Started
+P02,HV Engineering,17,11,PEC,50,3,Not Started
+P02,HV Engineering,18,12,V & Q Setting (Testing),58,3,Not Started
+P02,HV Engineering,19,13,As-Built SLD,72,3,Not Started
+P02,SCADA / Telecom,20,14,GIA Req. Rev,30,2,On Track
+P02,SCADA / Telecom,21,15,PPA Req. Rev,34,2,Not Started
+P02,SCADA / Telecom,22,16,Vendor Sel / Long-Lead Eqp,38,2,Not Started
+P02,SCADA / Telecom,23,17,Points List Rev,44,2,Not Started
+P02,SCADA / Telecom,24,18,TELCOM / Wless (Order/Install),48,2,Not Started
+P02,SCADA / Telecom,25,19,SCADA FAT,54,2,Not Started
+P02,SCADA / Telecom,26,20,Primary Telco,60,2,Not Started
+P02,HV O&M,27,21,Initial Design Rev. (ongoing),36,1,Not Started
+P02,HV O&M,28,22,HV Quality Rev. (ongoing),42,1,Not Started
+P02,HV O&M,29,23,MPT Del. / Inst.,48,1,Not Started
+P02,HV O&M,30,24,Commissioning (CMX) Testing,54,1,Not Started
+P02,HV O&M,31,25,Punch List Items,58,1,Not Started
+P02,HV O&M,32,26,CC&C,62,1,Not Started
+P03,Commercial Analytics,1,C1,Int. Basis / Curt,5,5,On Track
+P03,Commercial Analytics,2,C2,Ext. Basis / Curt,16,5,Not Started
+P03,Commercial Analytics,3,C3,Study Refresh,30,5,Not Started
+P03,Commercial Analytics,4,C4,3rd Party Study,38,5,Not Started
+P03,Commercial Analytics,5,C5,Ext. Re-finance,58,5,Not Started
+P03,Commercial Analytics,6,C6,Outage Monitoring (Basis/Curt.),74,5,Not Started
+P03,Interconnection,7,I1,IX App / POI,5,4,On Track
+P03,Interconnection,8,I2,IX Studies,16,4,Not Started
+P03,Interconnection,9,I3,GIA Execution,30,4,Not Started
+P03,Interconnection,10,I4,Dyn Settings (Analysis),38,4,Not Started
+P03,Interconnection,11,I5,Dyn Settings (Testing),58,4,Not Started
+P03,Interconnection,12,I6,As-Built Mods & LC Release,74,4,Not Started
+P03,HV Engineering,13,7,MPT / HV Eqp Long-Lead,2,3,On Track
+P03,HV Engineering,14,8,E&P / OTB,9,3,On Track
+P03,HV Engineering,15,9,FacStudy / POI-HV Review,28,3,At Risk
+P03,HV Engineering,16,10,Reactive & PQ (Studies),38,3,Not Started
+P03,HV Engineering,17,11,PEC,50,3,Not Started
+P03,HV Engineering,18,12,V & Q Setting (Testing),58,3,Not Started
+P03,HV Engineering,19,13,As-Built SLD,72,3,Not Started
+P03,SCADA / Telecom,20,14,GIA Req. Rev,30,2,Not Started
+P03,SCADA / Telecom,21,15,PPA Req. Rev,34,2,Not Started
+P03,SCADA / Telecom,22,16,Vendor Sel / Long-Lead Eqp,38,2,Not Started
+P03,SCADA / Telecom,23,17,Points List Rev,44,2,Not Started
+P03,SCADA / Telecom,24,18,TELCOM / Wless (Order/Install),48,2,Not Started
+P03,SCADA / Telecom,25,19,SCADA FAT,54,2,Not Started
+P03,SCADA / Telecom,26,20,Primary Telco,60,2,Not Started
+P03,HV O&M,27,21,Initial Design Rev. (ongoing),36,1,Not Started
+P03,HV O&M,28,22,HV Quality Rev. (ongoing),42,1,Not Started
+P03,HV O&M,29,23,MPT Del. / Inst.,48,1,Not Started
+P03,HV O&M,30,24,Commissioning (CMX) Testing,54,1,Not Started
+P03,HV O&M,31,25,Punch List Items,58,1,Not Started
+P03,HV O&M,32,26,CC&C,62,1,Not Started
+P04,Commercial Analytics,1,C1,Int. Basis / Curt,5,5,On Track
+P04,Commercial Analytics,2,C2,Ext. Basis / Curt,16,5,On Track
+P04,Commercial Analytics,3,C3,Study Refresh,30,5,On Track
+P04,Commercial Analytics,4,C4,3rd Party Study,38,5,On Track
+P04,Commercial Analytics,5,C5,Ext. Re-finance,58,5,Not Started
+P04,Commercial Analytics,6,C6,Outage Monitoring (Basis/Curt.),74,5,Not Started
+P04,Interconnection,7,I1,IX App / POI,5,4,On Track
+P04,Interconnection,8,I2,IX Studies,16,4,On Track
+P04,Interconnection,9,I3,GIA Execution,30,4,On Track
+P04,Interconnection,10,I4,Dyn Settings (Analysis),38,4,On Track
+P04,Interconnection,11,I5,Dyn Settings (Testing),58,4,Not Started
+P04,Interconnection,12,I6,As-Built Mods & LC Release,74,4,Not Started
+P04,HV Engineering,13,7,MPT / HV Eqp Long-Lead,2,3,On Track
+P04,HV Engineering,14,8,E&P / OTB,9,3,On Track
+P04,HV Engineering,15,9,FacStudy / POI-HV Review,28,3,On Track
+P04,HV Engineering,16,10,Reactive & PQ (Studies),38,3,On Track
+P04,HV Engineering,17,11,PEC,50,3,At Risk
+P04,HV Engineering,18,12,V & Q Setting (Testing),58,3,Not Started
+P04,HV Engineering,19,13,As-Built SLD,72,3,Not Started
+P04,SCADA / Telecom,20,14,GIA Req. Rev,30,2,On Track
+P04,SCADA / Telecom,21,15,PPA Req. Rev,34,2,On Track
+P04,SCADA / Telecom,22,16,Vendor Sel / Long-Lead Eqp,41,2,Delayed
+P04,SCADA / Telecom,23,17,Points List Rev,44,2,Not Started
+P04,SCADA / Telecom,24,18,TELCOM / Wless (Order/Install),48,2,Not Started
+P04,SCADA / Telecom,25,19,SCADA FAT,54,2,Not Started
+P04,SCADA / Telecom,26,20,Primary Telco,60,2,Not Started
+P04,HV O&M,27,21,Initial Design Rev. (ongoing),36,1,At Risk
+P04,HV O&M,28,22,HV Quality Rev. (ongoing),42,1,Not Started
+P04,HV O&M,29,23,MPT Del. / Inst.,51,1,Not Started
+P04,HV O&M,30,24,Commissioning (CMX) Testing,54,1,Not Started
+P04,HV O&M,31,25,Punch List Items,58,1,Not Started
+P04,HV O&M,32,26,CC&C,62,1,Not Started
+P05,Commercial Analytics,1,C1,Int. Basis / Curt,5,5,On Track
+P05,Commercial Analytics,2,C2,Ext. Basis / Curt,16,5,On Track
+P05,Commercial Analytics,3,C3,Study Refresh,30,5,On Track
+P05,Commercial Analytics,4,C4,3rd Party Study,38,5,On Track
+P05,Commercial Analytics,5,C5,Ext. Re-finance,58,5,On Track
+P05,Commercial Analytics,6,C6,Outage Monitoring (Basis/Curt.),74,5,Not Started
+P05,Interconnection,7,I1,IX App / POI,5,4,On Track
+P05,Interconnection,8,I2,IX Studies,16,4,On Track
+P05,Interconnection,9,I3,GIA Execution,30,4,On Track
+P05,Interconnection,10,I4,Dyn Settings (Analysis),38,4,On Track
+P05,Interconnection,11,I5,Dyn Settings (Testing),58,4,On Track
+P05,Interconnection,12,I6,As-Built Mods & LC Release,74,4,Not Started
+P05,HV Engineering,13,7,MPT / HV Eqp Long-Lead,2,3,On Track
+P05,HV Engineering,14,8,E&P / OTB,9,3,On Track
+P05,HV Engineering,15,9,FacStudy / POI-HV Review,28,3,On Track
+P05,HV Engineering,16,10,Reactive & PQ (Studies),38,3,On Track
+P05,HV Engineering,17,11,PEC,50,3,On Track
+P05,HV Engineering,18,12,V & Q Setting (Testing),58,3,On Track
+P05,HV Engineering,19,13,As-Built SLD,72,3,Not Started
+P05,SCADA / Telecom,20,14,GIA Req. Rev,30,2,On Track
+P05,SCADA / Telecom,21,15,PPA Req. Rev,34,2,On Track
+P05,SCADA / Telecom,22,16,Vendor Sel / Long-Lead Eqp,38,2,On Track
+P05,SCADA / Telecom,23,17,Points List Rev,44,2,On Track
+P05,SCADA / Telecom,24,18,TELCOM / Wless (Order/Install),48,2,On Track
+P05,SCADA / Telecom,25,19,SCADA FAT,63,2,Delayed
+P05,SCADA / Telecom,26,20,Primary Telco,60,2,At Risk
+P05,HV O&M,27,21,Initial Design Rev. (ongoing),36,1,On Track
+P05,HV O&M,28,22,HV Quality Rev. (ongoing),42,1,On Track
+P05,HV O&M,29,23,MPT Del. / Inst.,48,1,On Track
+P05,HV O&M,30,24,Commissioning (CMX) Testing,66,1,Delayed
+P05,HV O&M,31,25,Punch List Items,58,1,At Risk
+P05,HV O&M,32,26,CC&C,62,1,On Track

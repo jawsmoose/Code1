@@ -1,0 +1,4 @@
+# Power BI Desktop local state / caches
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+__pycache__/

@@ -1,0 +1,532 @@
+{
+  "name": "Project Review",
+  "compatibilityLevel": 1550,
+  "model": {
+    "culture": "en-US",
+    "sourceQueryCulture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "expressions": [
+      {
+        "name": "DataFolder",
+        "kind": "m",
+        "expression": "\"C:\\ProjectReview\\data\\\" meta [IsParameterQuery = true, Type = \"Text\", IsParameterQueryRequired = true]",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "Projects",
+        "columns": [
+          {
+            "name": "ProjectID",
+            "dataType": "string",
+            "sourceColumn": "ProjectID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ReviewDate",
+            "dataType": "string",
+            "sourceColumn": "ReviewDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ProjectName",
+            "dataType": "string",
+            "sourceColumn": "ProjectName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LeadInterconnection",
+            "dataType": "string",
+            "sourceColumn": "LeadInterconnection",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LeadHVEngineering",
+            "dataType": "string",
+            "sourceColumn": "LeadHVEngineering",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LeadSCADATelecom",
+            "dataType": "string",
+            "sourceColumn": "LeadSCADATelecom",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LeadHVOM",
+            "dataType": "string",
+            "sourceColumn": "LeadHVOM",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LeadAssetMgmt",
+            "dataType": "string",
+            "sourceColumn": "LeadAssetMgmt",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ProjectState",
+            "dataType": "string",
+            "sourceColumn": "ProjectState",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TOUtility",
+            "dataType": "string",
+            "sourceColumn": "TOUtility",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ISORTO",
+            "dataType": "string",
+            "sourceColumn": "ISORTO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OTBEPAgreement",
+            "dataType": "string",
+            "sourceColumn": "OTBEPAgreement",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "POIVoltage",
+            "dataType": "string",
+            "sourceColumn": "POIVoltage",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "POIType",
+            "dataType": "string",
+            "sourceColumn": "POIType",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Solar",
+            "dataType": "string",
+            "sourceColumn": "Solar",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Storage",
+            "dataType": "string",
+            "sourceColumn": "Storage",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PGIAGIA",
+            "dataType": "string",
+            "sourceColumn": "PGIAGIA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "COD",
+            "dataType": "string",
+            "sourceColumn": "COD",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EPCHV",
+            "dataType": "string",
+            "sourceColumn": "EPCHV",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OMProvider",
+            "dataType": "string",
+            "sourceColumn": "OMProvider",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "POIISD",
+            "dataType": "string",
+            "sourceColumn": "POIISD",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "POIISDStatus",
+            "dataType": "string",
+            "sourceColumn": "POIISDStatus",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EstIXCost",
+            "dataType": "string",
+            "sourceColumn": "EstIXCost",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IXCostStatus",
+            "dataType": "string",
+            "sourceColumn": "IXCostStatus",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SolarInverters",
+            "dataType": "string",
+            "sourceColumn": "SolarInverters",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MPT",
+            "dataType": "string",
+            "sourceColumn": "MPT",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "StoragePCS",
+            "dataType": "string",
+            "sourceColumn": "StoragePCS",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "GenTieLength",
+            "dataType": "string",
+            "sourceColumn": "GenTieLength",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ReactivePowerComp",
+            "dataType": "string",
+            "sourceColumn": "ReactivePowerComp",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PowerPlantCtrl",
+            "dataType": "string",
+            "sourceColumn": "PowerPlantCtrl",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SafeHarbor",
+            "dataType": "string",
+            "sourceColumn": "SafeHarbor",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OtherAttributes",
+            "dataType": "string",
+            "sourceColumn": "OtherAttributes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FutureExpansion",
+            "dataType": "string",
+            "sourceColumn": "FutureExpansion",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TransmissionNUs",
+            "dataType": "string",
+            "sourceColumn": "TransmissionNUs",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TopGatingItem",
+            "dataType": "string",
+            "sourceColumn": "TopGatingItem",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Projects",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(DataFolder & \"projects.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),\n    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),\n    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"ProjectID\", type text}, {\"ReviewDate\", type text}, {\"ProjectName\", type text}, {\"LeadInterconnection\", type text}, {\"LeadHVEngineering\", type text}, {\"LeadSCADATelecom\", type text}, {\"LeadHVOM\", type text}, {\"LeadAssetMgmt\", type text}, {\"ProjectState\", type text}, {\"TOUtility\", type text}, {\"ISORTO\", type text}, {\"OTBEPAgreement\", type text}, {\"POIVoltage\", type text}, {\"POIType\", type text}, {\"Solar\", type text}, {\"Storage\", type text}, {\"PGIAGIA\", type text}, {\"COD\", type text}, {\"EPCHV\", type text}, {\"OMProvider\", type text}, {\"POIISD\", type text}, {\"POIISDStatus\", type text}, {\"EstIXCost\", type text}, {\"IXCostStatus\", type text}, {\"SolarInverters\", type text}, {\"MPT\", type text}, {\"StoragePCS\", type text}, {\"GenTieLength\", type text}, {\"ReactivePowerComp\", type text}, {\"PowerPlantCtrl\", type text}, {\"SafeHarbor\", type text}, {\"OtherAttributes\", type text}, {\"FutureExpansion\", type text}, {\"TransmissionNUs\", type text}, {\"TopGatingItem\", type text}})\nin\n    #\"Changed Type\""
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "v Review Date",
+            "expression": "SELECTEDVALUE ( Projects[ReviewDate], \"[ MM / DD / YYYY ]\" )"
+          },
+          {
+            "name": "v Project Name",
+            "expression": "SELECTEDVALUE ( Projects[ProjectName], \"[ Project Name ]\" )"
+          },
+          {
+            "name": "v Lead IX",
+            "expression": "SELECTEDVALUE ( Projects[LeadInterconnection], \"[ Name ]\" )"
+          },
+          {
+            "name": "v Lead HV Eng",
+            "expression": "SELECTEDVALUE ( Projects[LeadHVEngineering], \"[ Name ]\" )"
+          },
+          {
+            "name": "v Lead SCADA",
+            "expression": "SELECTEDVALUE ( Projects[LeadSCADATelecom], \"[ Name ]\" )"
+          },
+          {
+            "name": "v Lead HV OM",
+            "expression": "SELECTEDVALUE ( Projects[LeadHVOM], \"[ Name ]\" )"
+          },
+          {
+            "name": "v Lead Asset Mgmt",
+            "expression": "SELECTEDVALUE ( Projects[LeadAssetMgmt], \"[ Name ]\" )"
+          },
+          {
+            "name": "v Project State",
+            "expression": "SELECTEDVALUE ( Projects[ProjectState], \"[ State ]\" )"
+          },
+          {
+            "name": "v TO Utility",
+            "expression": "SELECTEDVALUE ( Projects[TOUtility], \"[ TO / Utility ]\" )"
+          },
+          {
+            "name": "v ISO RTO",
+            "expression": "SELECTEDVALUE ( Projects[ISORTO], \"[ ISO / RTO ]\" )"
+          },
+          {
+            "name": "v OTB EP",
+            "expression": "SELECTEDVALUE ( Projects[OTBEPAgreement], \"[ Yes / No ] (add date(s) if Y)\" )"
+          },
+          {
+            "name": "v POI Voltage",
+            "expression": "SELECTEDVALUE ( Projects[POIVoltage], \"[ ___ kV ]\" )"
+          },
+          {
+            "name": "v POI Type",
+            "expression": "SELECTEDVALUE ( Projects[POIType], \"[ New SS / Existing / BTM ]\" )"
+          },
+          {
+            "name": "v Solar",
+            "expression": "SELECTEDVALUE ( Projects[Solar], \"[ ___ AC / ___ DC ]\" )"
+          },
+          {
+            "name": "v Storage",
+            "expression": "SELECTEDVALUE ( Projects[Storage], \"[ ___ MW / ___ MWh ]\" )"
+          },
+          {
+            "name": "v PGIA GIA",
+            "expression": "SELECTEDVALUE ( Projects[PGIAGIA], \"[ MM / YYYY ]\" )"
+          },
+          {
+            "name": "v COD",
+            "expression": "SELECTEDVALUE ( Projects[COD], \"[ MM / YYYY ]\" )"
+          },
+          {
+            "name": "v EPC HV",
+            "expression": "SELECTEDVALUE ( Projects[EPCHV], \"[ Contractor ]\" )"
+          },
+          {
+            "name": "v OM Provider",
+            "expression": "SELECTEDVALUE ( Projects[OMProvider], \"[ Provider ]\" )"
+          },
+          {
+            "name": "v POI ISD",
+            "expression": "SELECTEDVALUE ( Projects[POIISD], \"[ MM / YYYY ]\" )"
+          },
+          {
+            "name": "v POI ISD Status",
+            "expression": "SELECTEDVALUE ( Projects[POIISDStatus], \"[ On Track ]\" )"
+          },
+          {
+            "name": "v Est IX Cost",
+            "expression": "SELECTEDVALUE ( Projects[EstIXCost], \"[ $ ___ M ]\" )"
+          },
+          {
+            "name": "v IX Cost Status",
+            "expression": "SELECTEDVALUE ( Projects[IXCostStatus], \"[ Within Budget ]\" )"
+          },
+          {
+            "name": "v Solar Inverters",
+            "expression": "SELECTEDVALUE ( Projects[SolarInverters], \"[ Make / Model / Qty ]\" )"
+          },
+          {
+            "name": "v MPT",
+            "expression": "SELECTEDVALUE ( Projects[MPT], \"[ ___ MVA · Δ-Yg / Yg-Yg ]\" )"
+          },
+          {
+            "name": "v Storage PCS",
+            "expression": "SELECTEDVALUE ( Projects[StoragePCS], \"[ Make / Model / Qty / Duration ]\" )"
+          },
+          {
+            "name": "v Gen Tie",
+            "expression": "SELECTEDVALUE ( Projects[GenTieLength], \"[ Miles ]\" )"
+          },
+          {
+            "name": "v Reactive Power",
+            "expression": "SELECTEDVALUE ( Projects[ReactivePowerComp], \"[ Type / Size / Qty ]\" )"
+          },
+          {
+            "name": "v Power Plant Ctrl",
+            "expression": "SELECTEDVALUE ( Projects[PowerPlantCtrl], \"[ Vendor ]\" )"
+          },
+          {
+            "name": "v Safe Harbor",
+            "expression": "SELECTEDVALUE ( Projects[SafeHarbor], \"[ MPT ~ Qty / kV-MVA / FID Year ]\" )"
+          },
+          {
+            "name": "v Other",
+            "expression": "SELECTEDVALUE ( Projects[OtherAttributes], \"[ NITS, Fuel / Equip Change, etc. ]\" )"
+          },
+          {
+            "name": "v Future Expansion",
+            "expression": "SELECTEDVALUE ( Projects[FutureExpansion], \"[ Capacity / Surplus / Load IX - DC ]\" )"
+          },
+          {
+            "name": "v Transmission NUs",
+            "expression": "SELECTEDVALUE ( Projects[TransmissionNUs], \"[ Desc. / ISD ]\" )"
+          },
+          {
+            "name": "v Top Gating Item",
+            "expression": "SELECTEDVALUE ( Projects[TopGatingItem], \"[ Top gating item ]\" )"
+          }
+        ]
+      },
+      {
+        "name": "Milestones",
+        "columns": [
+          {
+            "name": "ProjectID",
+            "dataType": "string",
+            "sourceColumn": "ProjectID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Workstream",
+            "dataType": "string",
+            "sourceColumn": "Workstream",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SortOrder",
+            "dataType": "int64",
+            "sourceColumn": "SortOrder",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Label",
+            "dataType": "string",
+            "sourceColumn": "Label",
+            "summarizeBy": "none",
+            "sortByColumn": "SortOrder"
+          },
+          {
+            "name": "MilestoneName",
+            "dataType": "string",
+            "sourceColumn": "MilestoneName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TimelinePos",
+            "dataType": "double",
+            "sourceColumn": "TimelinePos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RowY",
+            "dataType": "int64",
+            "sourceColumn": "RowY",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Status",
+            "dataType": "string",
+            "sourceColumn": "Status",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Milestones",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(DataFolder & \"milestones.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),\n    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),\n    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"ProjectID\", type text}, {\"Workstream\", type text}, {\"SortOrder\", Int64.Type}, {\"Label\", type text}, {\"MilestoneName\", type text}, {\"TimelinePos\", type number}, {\"RowY\", Int64.Type}, {\"Status\", type text}})\nin\n    #\"Changed Type\""
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Milestone Color",
+            "expression": "SWITCH (\n    SELECTEDVALUE ( Milestones[Status] ),\n    \"On Track\", \"#4E8542\",\n    \"At Risk\", \"#C4680C\",\n    \"Delayed\", \"#B3261E\",\n    \"Not Started\", \"#787E88\",\n    \"#787E88\"\n)"
+          }
+        ]
+      },
+      {
+        "name": "KeyActions",
+        "columns": [
+          {
+            "name": "ProjectID",
+            "dataType": "string",
+            "sourceColumn": "ProjectID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Seq",
+            "dataType": "int64",
+            "sourceColumn": "Seq",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ActionItem",
+            "dataType": "string",
+            "sourceColumn": "ActionItem",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Owner",
+            "dataType": "string",
+            "sourceColumn": "Owner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Due",
+            "dataType": "string",
+            "sourceColumn": "Due",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "KeyActions",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Csv.Document(File.Contents(DataFolder & \"key_actions.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),\n    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),\n    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"ProjectID\", type text}, {\"Seq\", Int64.Type}, {\"ActionItem\", type text}, {\"Owner\", type text}, {\"Due\", type text}})\nin\n    #\"Changed Type\""
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "rel-milestones-projects",
+        "fromTable": "Milestones",
+        "fromColumn": "ProjectID",
+        "toTable": "Projects",
+        "toColumn": "ProjectID"
+      },
+      {
+        "name": "rel-keyactions-projects",
+        "fromTable": "KeyActions",
+        "fromColumn": "ProjectID",
+        "toTable": "Projects",
+        "toColumn": "ProjectID"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DataFolder\",\"Projects\",\"Milestones\",\"KeyActions\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      }
+    ]
+  }
+}
