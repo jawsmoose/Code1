@@ -1,0 +1,9 @@
+# Built Access database and runtime artifacts
+*.accdb
+*.laccdb
+*.mdb
+*.ldb
+Exports/
+
+# Office temp files
+~$*
